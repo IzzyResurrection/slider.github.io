@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /*hack para box model*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    padding: 1.5rem;
+    background-color: pink;
+}
+
+body{
+    font-family: 'Fascinate', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 7rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 5rem;
+}
+
+main{
+    background-color: plum;
+}
+
+section{
+    padding: 2rem;
+}
+
+.container{
+    padding: 2rem;
+    width: 1000px;
+}
+
